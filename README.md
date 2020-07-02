@@ -32,10 +32,8 @@ The SceneKitDemo app demonstrates a sample to call the SceneView.
 
 ## Result
 
-<img src="src/screenshot_1.png" width = 30% height = 30%>
-<img src="src/screenshot_2.png" width = 30% height = 30%>
-<img src="src/screenshot_3.png" width = 30% height = 30%>
-<img src="src/screenshot_4.png" width = 30% height = 30%>
+<img src="src/screenshot_1.png" width = 30% height = 30%> <img src="src/screenshot_2.png" width = 30% height = 30%>
+<img src="src/screenshot_3.png" width = 30% height = 30%> <img src="src/screenshot_4.png" width = 30% height = 30%>
 
 ## License
 
