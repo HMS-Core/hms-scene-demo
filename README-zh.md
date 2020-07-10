@@ -16,7 +16,7 @@
 
 ## 开发准备
 
-   1. 检查Android Studio开发环境是否就绪。在Android Studio中打开项目级“build.gradle“所在的目录。同步后，在您已安装华为移动服务APK的模拟器或华为手机上运行示例代码。
+   1. 检查Android Studio开发环境是否就绪。使用Android Studio打开示例代码工程路径下的build.gradle文件。同步后，在您已安装HMS Core APK的模拟器或华为手机上运行示例代码。
    2. 注册[华为账号](https://developer.huawei.com/consumer)。
    3. 创建应用并在AppGallery连接中配置应用信息。
    详情请查看: [华为图形引擎服务开发指南](<https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/dev-process-0000001050195424>)。
@@ -32,10 +32,10 @@
 
 ## 运行结果
 
-   <img src="src/screenshot_1.png" width = 30% height = 30%>
-   <img src="src/screenshot_2.png" width = 30% height = 30%>
-   <img src="src/screenshot_3.png" width = 30% height = 30%>
-   <img src="src/screenshot_4.png" width = 30% height = 30%>
+<img src="src/screenshot_1.png" width = 30% height = 30%> <img src="src/screenshot_2.png" width = 30% height = 30%>
+
+<img src="src/screenshot_3.png" width = 30% height = 30%> <img src="src/screenshot_4.png" width = 30% height = 30%>
+
 
 ## 许可证
 
