@@ -1,5 +1,5 @@
 # HMS SceneKit Demo
-
+English | [中文](https://github.com/HMS-Core/hms-scene-demo/blob/master/README-zh.md)
 ## Table of Contents
 
 * [Introduction](#introduction)
