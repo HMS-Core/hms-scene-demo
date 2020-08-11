@@ -36,6 +36,14 @@ The SceneKitDemo app demonstrates a sample to call the SceneView.
 
 <img src="src/screenshot_3.png" width = 30% height = 30%> <img src="src/screenshot_4.png" width = 30% height = 30%>
 
+## Question or issues
+If you have questions about how to use HMS samples, try the following options:
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
+**huawei-mobile-services**.
+- [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) HMS Core Module is great for general questions, or seeking recommendations and opinions.
+
+If you run into a bug in our samples, please submit an [issue](https://github.com/HMS-Core/hms-scene-demo/issues) to the Repository. Even better you can submit a [Pull Request](https://github.com/HMS-Core/hms-scene-demo/pulls) with a fix.
+
 ## License
 
 SceneKitDemo is licensed under the [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
