@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <!-- 以 xml 标签形式使用 SampleView -->
-    <com.huawei.scene.demo.SampleView
+    <com.huawei.scene.demo.sceneview.SceneSampleView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

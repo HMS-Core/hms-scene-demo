@@ -16,11 +16,19 @@
 
 package com.huawei.scene.demo;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
+import com.huawei.scene.demo.arview.ARViewActivity;
+import com.huawei.scene.demo.faceview.FaceViewActivity;
+import com.huawei.scene.demo.sceneview.SceneViewActivity;
 
 /**
  * MainActivity
@@ -29,18 +37,70 @@ import android.view.View;
  * @since 2020-5-13
  */
 public class MainActivity extends AppCompatActivity {
+    private static final int FACE_VIEW_REQUEST_CODE = 1;
+    private static final int AR_VIEW_REQUEST_CODE = 2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 
+    @Override
+    public void onRequestPermissionsResult(
+        int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        switch (requestCode) {
+            case FACE_VIEW_REQUEST_CODE:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    startActivity(new Intent(this, FaceViewActivity.class));
+                }
+                break;
+            case AR_VIEW_REQUEST_CODE:
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    startActivity(new Intent(this, ARViewActivity.class));
+                }
+                break;
+            default:
+                break;
+        }
+    }
+
     /**
-     * Starts the SampleActivity, a callback method which is called upon a tap on the START ACTIVITY button.
+     * Starts the SceneViewActivity, a callback method which is called upon a tap on the START ACTIVITY button.
      *
      * @param view View that is tapped
      */
-    public void onBtnSceneKitDemoClicked(View view) {
-        startActivity(new Intent(this, SampleActivity.class));
+    public void onBtnSceneViewDemoClicked(View view) {
+        startActivity(new Intent(this, SceneViewActivity.class));
+    }
+
+    /**
+     * Starts the FaceViewActivity, a callback method which is called upon a tap on the START ACTIVITY button.
+     *
+     * @param view View that is tapped
+     */
+    public void onBtnFaceViewDemoClicked(View view) {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
+            != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(
+                this, new String[]{ Manifest.permission.CAMERA }, FACE_VIEW_REQUEST_CODE);
+        } else {
+            startActivity(new Intent(this, FaceViewActivity.class));
+        }
+    }
+
+    /**
+     * Starts the ARViewActivity, a callback method which is called upon a tap on the START ACTIVITY button.
+     *
+     * @param view View that is tapped
+     */
+    public void onBtnARViewDemoClicked(View view) {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
+            != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(
+                this, new String[]{ Manifest.permission.CAMERA }, AR_VIEW_REQUEST_CODE);
+        } else {
+            startActivity(new Intent(this, ARViewActivity.class));
+        }
     }
 }
