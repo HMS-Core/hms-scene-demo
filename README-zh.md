@@ -32,9 +32,17 @@
 
 ## 运行结果
 
-<img src="src/screenshot_1.png" width = 30% height = 30%> <img src="src/screenshot_2.png" width = 30% height = 30%>
+**SceneView**
 
-<img src="src/screenshot_3.png" width = 30% height = 30%> <img src="src/screenshot_4.png" width = 30% height = 30%>
+<img src="https://github.com/HMS-Core/hms-scene-demo/blob/master/src/SceneView.gif" width = 30% height = 30%> 
+
+**ARView**
+
+<img src="https://github.com/HMS-Core/hms-scene-demo/blob/master/src/ARView.gif" width = 30% height = 30%>
+
+**FaceView**
+
+<img src="https://github.com/HMS-Core/hms-scene-demo/blob/master/src/FaceView.gif" width = 30% height = 30%>
 
 ## 技术支持
 如果您对HMS Core还处于评估阶段，可在[Reddit社区](https://www.reddit.com/r/HuaweiDevelopers/)获取关于HMS Core的最新讯息，并与其他开发者交流见解。
