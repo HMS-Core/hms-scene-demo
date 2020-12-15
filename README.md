@@ -33,13 +33,19 @@ The SceneKitDemo app demonstrates a sample to call the SceneView.
 ## Result
 **SceneView**
 
+With SceneView, you are able to load and render 3D materials in common scenes.
+
 <img src="https://github.com/HMS-Core/hms-scene-demo/blob/master/src/SceneView.gif" width = 30% height = 30%> 
 
 **ARView**
 
+ARView uses the plane detection capability of AR Engine, together with the graphics rendering capability of Scene Kit, to provide you with the capability of loading and rendering 3D materials in common AR scenes.
+
 <img src="https://github.com/HMS-Core/hms-scene-demo/blob/master/src/ARView.gif" width = 30% height = 30%>
 
 **FaceView**
+
+FaceView can use the face detection capability provided by ML Kit or AR Engine to dynamically detect faces. Along with the graphics rendering capability of Scene Kit, FaceView provides you with superb AR scene rendering dedicated for faces.
 
 <img src="https://github.com/HMS-Core/hms-scene-demo/blob/master/src/FaceView.gif" width = 30% height = 30%>
 
