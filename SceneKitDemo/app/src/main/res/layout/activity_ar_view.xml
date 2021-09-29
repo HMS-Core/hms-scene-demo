@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".arview.ARViewActivity"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <com.huawei.hms.scene.sdk.ARView
+        android:id="@+id/ar_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.huawei.hms.scene.sdk.ARView>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_plane_view"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd ="15dp"
+        android:layout_gravity="end"
+        android:text="@string/show_plane"
+        android:theme="@style/AppTheme"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:onClick="onBtnClearResourceClicked"
+        android:text="@string/btn_text_load">
+    </Button>
+</RelativeLayout>
+
+

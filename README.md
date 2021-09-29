@@ -1,5 +1,5 @@
 # HMS SceneKit Demo
-English | [中文](https://github.com/HMS-Core/hms-scene-demo/blob/master/README-zh.md)
+English | [中文](README_ZH.md)
 ## Table of Contents
 
 * [Introduction](#introduction)
@@ -10,16 +10,16 @@ English | [中文](https://github.com/HMS-Core/hms-scene-demo/blob/master/README
 
 ## Introduction
 
-The SceneKitDemo app demonstrates a sample to call the SceneView.
+The SceneKitDemo app demonstrates samples to call the SceneView, ARView and FaceView.
 
 [Read more about HUAWEI Scene Kit](https://developer.huawei.com/consumer/en/hms/huawei-scenekit).
 
 ## Getting-Started
 
-   1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio. Run SceneKitDemo on your divice or simulator which have installed latest Huawei Mobile Service(HMS).
+   1. Check whether the Android studio development environment is ready. Open the sample code project directory with file "build.gradle" in Android Studio.
    2. Register a [HUAWEI account](https://developer.huawei.com/consumer).
    3. Create an app and configure the app information in AppGallery Connect.
-   See details: [HUAWEI Scene Kit Development Preparation](https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/dev-process-0000001054326746-V5)
+      See details: [HUAWEI Scene Kit Development Preparation](https://developer.huawei.com/consumer/en/doc/development/graphics-Guides/dev-process-0000001064186384)
    4. To build this demo, please first import the demo in the Android Studio (3.5+).
    5. Run the sample on your Android device or emulator.
 
@@ -35,25 +35,25 @@ The SceneKitDemo app demonstrates a sample to call the SceneView.
 
 With SceneView, you are able to load and render 3D materials in common scenes.
 
-<img src="https://github.com/HMS-Core/hms-scene-demo/blob/master/src/SceneView.gif" width = 30% height = 30%> 
+<img src="SceneKitDemo/SceneView.gif" width = 30% height = 30%> 
 
 **ARView**
 
 ARView uses the plane detection capability of AR Engine, together with the graphics rendering capability of Scene Kit, to provide you with the capability of loading and rendering 3D materials in common AR scenes.
 
-<img src="https://github.com/HMS-Core/hms-scene-demo/blob/master/src/ARView.gif" width = 30% height = 30%>
+<img src="SceneKitDemo/ARView.gif" width = 30% height = 30%>
 
 **FaceView**
 
 FaceView can use the face detection capability provided by ML Kit or AR Engine to dynamically detect faces. Along with the graphics rendering capability of Scene Kit, FaceView provides you with superb AR scene rendering dedicated for faces.
 
-<img src="https://github.com/HMS-Core/hms-scene-demo/blob/master/src/FaceView.gif" width = 30% height = 30%>
+<img src="SceneKitDemo/FaceView.gif" width = 30% height = 30%>
 
 ## Question or issues
 If you want to evaluate more about HMS Core, [r/HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
 
 If you have questions about how to use HMS samples, try the following options:
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) is the best place for any programming questions. Be sure to tag your question with 
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services?tab=Votes) is the best place for any programming questions. Be sure to tag your question with 
 `huawei-mobile-services`.
 - [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/home?fid=0101187876626530001) HMS Core Module is great for general questions, or seeking recommendations and opinions.
 
