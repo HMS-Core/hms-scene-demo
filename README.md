@@ -26,8 +26,8 @@ The SceneKitDemo app demonstrates samples to call the SceneView, ARView and Face
 ## Supported-Environments
 
 * AndroidStuido 3.6.1 or a later version is recommended.
-* JDK 1.8 or later.
-* HMS Core (APK) 4.0.2.300 or later.
+* JDK 1.8 or later
+* HMS Core (APK) 4.0.2.300 or later
 * EMUI 10.0 or a later version is recommended.
 
 ## Result
