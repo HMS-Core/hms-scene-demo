@@ -6,6 +6,7 @@ English | [中文](README_ZH.md)
 * [Getting Started](#getting-started)
 * [Supported Environments](#supported-environments)
 * [Result](#result)
+* [Question or issues](#question-or-issues)
 * [License](#license)
 
 ## Introduction
@@ -50,7 +51,7 @@ FaceView can use the face detection capability provided by ML Kit or AR Engine t
 <img src="SceneKitDemo/FaceView.gif" width = 30% height = 30%>
 
 ## Question or issues
-If you want to evaluate more about HMS Core, [r/HMSCore on Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
+If you want to evaluate more about HMS Core, [Reddit](https://www.reddit.com/r/HuaweiDevelopers/) is for you to keep up with latest news about HMS Core, and to exchange insights with other developers.
 
 If you have questions about how to use HMS samples, try the following options:
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services?tab=Votes) is the best place for any programming questions. Be sure to tag your question with 
