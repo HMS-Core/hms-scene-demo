@@ -21,8 +21,10 @@ The SceneKitDemo app demonstrates samples to call the SceneView, ARView and Face
    2. Register a [HUAWEI account](https://developer.huawei.com/consumer).
    3. Create an app and configure the app information in AppGallery Connect.
       See details: [HUAWEI Scene Kit Development Preparation](https://developer.huawei.com/consumer/en/doc/development/graphics-Guides/dev-process-0000001064186384).
-   4. To build this demo, please first import the demo in the Android Studio (3.6.1+).
-   5. Run the sample on your Android device or emulator.
+   4. If the `agconnect-services.json` file has been added to the app, go to **buildscript -> dependencies** and add the AppGallery Connect plugin configuration.
+      See details: [Integrating the HMS Core SDK](https://developer.huawei.com/consumer/en/doc/development/graphics-Guides/integrating-sdk-0000001063754635).
+   5. To build this demo, please first import the demo in the Android Studio (3.6.1+).
+   6. Run the sample on your Android device or emulator.
 
 ## Supported-Environments
 
